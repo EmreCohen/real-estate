@@ -1,0 +1,37 @@
+.carousel-inner:before {background-color: rgba(0, 0, 0, 0.484);
+ content: ""; 
+z-index: 1;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+bottom: 0;
+position: absolute;}
+
+.carousel-caption {
+bottom: 45px ;
+z-index: 2;
+
+}
+
+
+.carousel-caption h5 {
+  font-style: italic; 
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+font-size: 25px;}
+.carousel-caption p a {font-size: 1rem;
+margin: 4px 7px;}
+
+
+.carousel-item {height: 100vh;}
+
+.img-container {
+  max-width: 100%;
+  height: auto;  }
+
+ 
+
